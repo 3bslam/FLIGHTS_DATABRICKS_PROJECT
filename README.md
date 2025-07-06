@@ -1,7 +1,7 @@
 # FLIGHTS_DATABRICKS_PROJECT
 end to end data engineer project with databricks
 Project Goal and Architecture:
-◦ I created this project to master the latest Databricks technologies, including real-world scenarios.
+◦ I created this project to learn the latest Databricks technologies, including real-world scenarios.
 ◦ In this project, I followed the Medallion Architecture ✨, a popular structure in Data Engineering. I divided the data into three main layers:
 
 Bronze (Raw Data) 🥉
@@ -9,12 +9,11 @@ Bronze (Raw Data) 🥉
 Silver (Cleaned and Transformed Data) 🥈
 
 Gold (Analytics-ready Data Models) 🥇
-◦ This project serves as a valuable resource for learners as it covers real-world scenarios and provides deep knowledge and advanced insights.
 
 • Bronze Layer (Data Ingestion):
 ◦ Source: I worked with flight data files (CSV) that arrive daily and require incremental processing.
 ◦ Tools: I used Databricks Autoloader, built on Spark Structured Streaming, to load the data incrementally.
-◦ Highlights:
+![Screenshot 2025-07-06 205648](https://github.com/user-attachments/assets/28d429ac-e277-419a-9b1e-bdc923498d44)
 
 
 I didn’t build static solutions; instead, I created dynamic solutions using parameter analysis and Databricks Jobs workflow control.
@@ -22,12 +21,10 @@ I didn’t build static solutions; instead, I created dynamic solutions using pa
 Autoloader ensures exactly-once processing and automatically tracks schema evolution.
 
 This was implemented using Databricks Free Edition 🆓, with Unity Catalog and Volumes, eliminating the need to manage external cloud storage.
-![Screenshot 2025-07-06 205648](https://github.com/user-attachments/assets/28d429ac-e277-419a-9b1e-bdc923498d44)
 
 
 • Silver Layer (Data Transformation):
 ◦ Tools: I leveraged the latest Databricks technology: Lakehouse Declarative Pipelines (formerly Delta Live Tables - DLT), which is now part of open-source Apache Spark 🎉.
-◦ Highlights:
 ![Screenshot 2025-07-06 205945](https://github.com/user-attachments/assets/be9ed590-a6ee-47f8-a306-1707e95fe08f)
 
 
