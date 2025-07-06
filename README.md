@@ -1,5 +1,7 @@
 # FLIGHTS_DATABRICKS_PROJECT
 end to end data engineer project with databricks
+![images](https://github.com/user-attachments/assets/44e7bac9-d117-4af7-a045-48ecc291a1d7)
+
 Project Goal and Architecture:
 ◦ I created this project to learn the latest Databricks technologies, including real-world scenarios.
 ◦ In this project, I followed the Medallion Architecture ✨, a popular structure in Data Engineering. I divided the data into three main layers:
